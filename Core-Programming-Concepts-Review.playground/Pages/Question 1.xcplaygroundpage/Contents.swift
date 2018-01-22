@@ -28,10 +28,10 @@ let horizontalTranslation = 2.0
 let verticalScaleFactor = 0.5
 
 // Set the independent variable value
-let input = 100.0
+let independentVariable = 100.0
 
 // Calculate the dependent variable value
-var output = verticalScaleFactor * pow(input - horizontalTranslation, 2) + verticalTranslation
+var dependentVariable = verticalScaleFactor * pow(independentVariable - horizontalTranslation, 2) + verticalTranslation
 
 /*:
  In other words:
