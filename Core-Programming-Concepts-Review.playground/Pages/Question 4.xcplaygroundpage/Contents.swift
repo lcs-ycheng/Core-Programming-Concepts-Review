@@ -21,6 +21,19 @@
  
  */
 // Answer question 4 below
+let dinner = 200
+let saladBar = 20.0
+let soup = 20.0
+let mainCourse = 12.0
+let pizzaOven = 10.0
+let date = "Thursday, January 18, 2018"
+let timeFrame = "11:30 AM to 1:00 PM"
+print("I use double for the salad bar, main course and pizza oven, because it is asking the mass of the food. The mass requires the decimals. There's no half man, so the dinner is integer. The date and the time frame are the sentences, so they are string.")
+
+
+
+
+
 
 /*:
  ## Now share your understanding
