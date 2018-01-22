@@ -21,8 +21,15 @@
 let temperatureInCelsius = 15
 let isRaining = true
 let isSunny = true
+let isNiceWeather = true
+let isNiceWeather = isSunny && temperatureInCelsius >= 20 || isRaining
 
 // Answer question 5 below
+if isNiceWeather {
+    print("I am going for a walk. ")
+} else if isNiceWeather && temperatureInCelsius >= 30 && isSunny {
+    print("I am going for a walk.")
+}
 
 
 /*:
