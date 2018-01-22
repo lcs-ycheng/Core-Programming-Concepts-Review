@@ -18,6 +18,16 @@
  
  */
 // Answer question 2 below
+var numberOfCommits = 124
+var numberOfForks = 34
+let yearCreated = 2018
+let monthCreated = 1
+let dateCreated = 22
+print("variable is the number that might change. Like the number of commits and the number of forks. But year is created, month is created and the date is created are the past, which might not change. It should be a constant.")
+
+
+
+
 
 /*:
  ## Now share your understanding
