@@ -17,7 +17,11 @@
 let currentHeartRate = 128
 
 // Answer question 6 below
-
+if currentHeartRate >= 100 && currentHeartRate <= 120 {
+    print("You are in the Very Light zone. Activity in this helps with recovery.")
+} else if currentHeartRate >= 120 && currentHeartRate <= 140 {
+    
+}
 
 /*:
  ## Now share your understanding

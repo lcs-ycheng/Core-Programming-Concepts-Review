@@ -18,16 +18,16 @@
  
     You'll need to adjust the value of the constants immedidately below to test your code thoroughly.
  */
-let temperatureInCelsius = 30
-let isRaining = false
+let temperatureInCelsius = 15
+let isRaining = true
 let isSunny = true
-let isNiceWeather = isRaining && (temperatureInCelsius >= 20 || isSunny)
+let isNiceWeather = !isRaining || (temperatureInCelsius > 20 && isSunny)
 
 // Answer question 5 below
 if isNiceWeather {
     print("I am going for a walk. ")
 } else {
-    print("I am not going for a walk.")
+    print("I will stay inside today.")
 }
 
 
